@@ -1,0 +1,33 @@
+.containerPersonal{
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+.columnImg{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.personalImg{
+    height: 10rem;
+
+}
+
+.personalSubTitle{
+    margin-top:2rem;
+    font-family: "Code",  sans-serif;
+    color:#ea80fc;
+}
+.personalSpan{
+    color:#80fce5;
+}
+.personalParag{
+    margin-top:1rem;
+    font-family: "Code",  sans-serif;
+}
