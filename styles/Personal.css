@@ -1,3 +1,4 @@
+
 .containerPersonal{
 
     display:flex;
@@ -20,7 +21,6 @@
 }
 
 .personalSubTitle{
-    margin-top:2rem;
     font-family: "Code",  sans-serif;
     color:#ea80fc;
 }

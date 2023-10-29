@@ -18,8 +18,8 @@ export default function Personal() {
     <Container className="containerPersonal" >
 
 <Typography  className="Title" id="about">Some things about me</Typography>
-<Grid container spacing={2}  >
-  <Grid item xs={10} lg={7}>
+<Grid container   >
+  <Grid item xs={10} md={8} lg={8}>
         <Typography variant="h5" className="personalSubTitle">Who I am </Typography>
         <Typography variant="body1" className="personalParag"><span className="personalSpan" >name:  </span> Melina</Typography>
         <Typography variant="body1" className="personalParag"><span className="personalSpan" >age:  </span>34</Typography>
@@ -48,16 +48,16 @@ export default function Personal() {
         
   </Grid>
 
-  <Grid item xs={10} lg={5}
-  container
+  <Grid item xs={10} md={3} lg={3}
+  
   justifyContent="center"
   alignItems="center"
   
   >
-    <Paper  sx={{  background: grad, padding:1}}>
+    <Paper   sx={{ background: grad, padding:1, display:'flex', justifyContent:"center", alignItems:"center", }}>
     <Image
       src={panuelo}
-      height={300}
+      width={240}
       alt="Picture of the author" />
     </Paper>
   

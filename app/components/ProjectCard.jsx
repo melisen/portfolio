@@ -6,17 +6,15 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image'
+import BC from '../../public/images/MSBussinessCard.png'
 import { deepPurple } from '@mui/material/colors';
 import { indigo } from '@mui/material/colors';
 
 export default function ProjectCard() {
   return (
     <Card sx={{ maxWidth: 320,  margin:'1rem' }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
-      />
+
+      <Image src={BC} alt={"project picture"} className="cardImg" height={200}/>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" color={deepPurple[600]}>
           Project 1

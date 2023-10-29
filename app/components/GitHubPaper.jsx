@@ -9,8 +9,8 @@ export default function GitHubPaper() {
     <Paper 
     elevation={3}
     square={false}
-    sx={{backgroundColor:purpuraIntermedio, color:deepPurple[50], maxWidth:'200px', padding:'10px', display:'flex', flexDirection:'row', justifyContent:'center', alignContent:'center', textAlign:'center'}}>
-    <Typography variant="body1" > <Image width={30} height={30} alt="icon" 
+    sx={{backgroundColor:purpuraIntermedio, color:deepPurple[50], maxWidth:'120px', maxHeight:'60px', padding:'0', display:'flex', flexDirection:'row', justifyContent:'center', alignContent:'space-evenly', textAlign:'center'}}>
+    <Typography variant="body1" sx={{lineHeight:'1rem' }} > <Image width={30} height={30} alt="icon" 
      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"   /> /melisen</Typography>
     </Paper>
   )

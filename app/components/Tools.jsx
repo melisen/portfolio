@@ -10,9 +10,9 @@ import { deepPurple } from '@mui/material/colors';
 export default function Tools() {
   return (
     <Container sx={{backgroundColor:purpuraClaro}}>
-      <Typography  className="toolsTitle" mt={3}>Tools I use</Typography>
+      <Typography  className="toolsTitle">Tools I use</Typography>
       <Grid container >
-        <Grid item xs={12} lg={12} spacing={2}
+        <Grid item xs={12} lg={12} 
         justifyContent="center"
         alignItems="center"
         textAlign='center'
@@ -34,7 +34,7 @@ export default function Tools() {
             <Image width={70} height={70} alt="icon" 
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"  />
             </Grid>
-            <Grid item xs={12} lg={12} spacing={2}
+            <Grid item xs={12} lg={12}
         justifyContent="center"
         alignItems="center"
         textAlign='center'
@@ -62,7 +62,7 @@ export default function Tools() {
 
       </Grid>
 
-      <Grid item xs={12} lg={12} spacing={2}
+      <Grid item xs={12} lg={12}
         justifyContent="center"
         alignItems="center"
         textAlign='center'

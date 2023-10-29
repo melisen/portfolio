@@ -1,14 +1,19 @@
 import React from 'react'
-import {Box, Container } from '@mui/material';
-import '../../styles/hero.module.css'
+import { Container } from '@mui/material';
+import '../../styles/hero.css'
 
 export default function Hero() {
   return (
-    <Container >
-      <Box className="heroContainer">
-      Hero Image Melina Señoráns Pérez
-      </Box>
-     
+    <Container className='heroContainer' >
+    
+    <div className="heroImage">
+        <div className="heroText" >
+          <h1 className='hero-title'>Melina Señoráns Pérez</h1>
+          <p>Web developer</p>
+         
+        </div>
+      </div>
+      
     </Container>
   )
 }
