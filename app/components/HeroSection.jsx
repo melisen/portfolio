@@ -13,7 +13,7 @@ export default function HeroSection() {
   return (
     <>
    
-<div  className="heroNavbar">
+<div  className="heroAndNavbar">
 <Navbar />
 
     <div className="heroSection">

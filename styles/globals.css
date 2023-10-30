@@ -5,7 +5,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
+  font-family: "Source Code Pro",  sans-serif ;
+  font-weight: 400;
 }
 
 
@@ -16,7 +17,8 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   color:#e8eaf6;
-  font-family: "Code",  sans-serif ;
+  
+
 }
 
 body {
@@ -33,7 +35,7 @@ body {
     */
 }
 #personal-projects-background{
-  background-color:#283593;
+  background-color:#1a237e;
 }
 .prueba{
   color:rgb(15, 2, 84)
@@ -48,24 +50,11 @@ a {
     color-scheme: dark;
   }
 }
-.Title{
-  font-size:2.5rem;
-  text-align: center;
-  margin: 2rem 0;
-  color:#40c4ff;
-  font-family: "Code",  sans-serif ;
-}
+
 .toolsTitle{
   font-size:2.5rem;
   text-align: center;
   margin: 0 0 2rem 0;
   color:#0277bd;
   font-family: "Code",  sans-serif ;
-}
-.projectsTitle{
-  text-align: center;
-  margin: 2rem 0;
-  font-size:2.5rem;
-  color:rgb(123, 251, 123);
-  font-family: "Code",  sans-serif;
 }

@@ -21,11 +21,11 @@ export default function Personal() {
 <Grid container   >
   <Grid item xs={10} md={8} lg={8}>
         <Typography variant="h5" className="personalSubTitle">Who I am </Typography>
-        <Typography variant="body1" className="personalParag"><span className="personalSpan" >name:  </span> Melina</Typography>
-        <Typography variant="body1" className="personalParag"><span className="personalSpan" >age:  </span>34</Typography>
-        <Typography variant="body1" className="personalParag"><span className="personalSpan" >located_in:  </span>Castelar city, Buenos Aires, Argentina</Typography>
-        <Typography variant="body1" className="personalParag"><span className="personalSpan" >Hobbies: </span>  Book lover, fantasy fan, always embracing my inner nerd.</Typography>
-        <Typography variant="body1" className="personalParag"><span className="personalSpan" >Social:  </span>
+        <Typography variant="body1" className="personalParag"><span  >name:  </span> Melina</Typography>
+        <Typography variant="body1" className="personalParag"><span  >age:  </span>34</Typography>
+        <Typography variant="body1" className="personalParag"><span  >located_in:  </span>Castelar city, Buenos Aires, Argentina</Typography>
+        <Typography variant="body1" className="personalParag"><span  >Hobbies: </span>  Book lover, fantasy fan, always embracing my inner nerd.</Typography>
+        <Typography variant="body1" className="personalParag"><span  >Social:  </span>
         [
           
         <Link href="https://www.instagram.com/_._melina_._._" target='blank' style={{ color: 'rgb(123, 251, 123)', textDecoration: 'none', fontWeight:'bold' }}> Instagram, </Link>  
@@ -54,12 +54,17 @@ export default function Personal() {
   alignItems="center"
   
   >
+    
+    {/*
+    Foto con pañuelo y marquito lila
+
     <Paper   sx={{ background: grad, padding:1, display:'flex', justifyContent:"center", alignItems:"center", }}>
     <Image
       src={panuelo}
       width={240}
       alt="Picture of the author" />
     </Paper>
+    */}
   
   </Grid>
   </Grid>

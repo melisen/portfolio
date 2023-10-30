@@ -4,6 +4,7 @@ import Image from 'next/image'
 import ProjectCard from './ProjectCard'
 
 import Grid from '@mui/material/Grid';
+import '../../styles/projects.css'
 
 
 
