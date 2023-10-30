@@ -1,0 +1,9 @@
+[
+    {
+    "title":"Oropel Fantasy Store",
+    "picture": "/app/data/projectsImg/oropel.png",
+    "description": "Fantasy Bookstore e-commerce frontend made with React.js, MUI and Firebase",
+    "repoUrl": "https://github.com/melisen/oropel-fantasy-store-senorans-perez",
+    "deployUrl": "https://oropel-senorans.web.app/"
+}
+]

@@ -8,10 +8,16 @@ import Projects from './components/Projects'
 
 import Footer from './components/Footer'
 import HeroSection from './components/HeroSection'
-import Hero from './components/Hero'
+import { promises as fs } from 'fs';
 
 
-export default function Home() {
+
+export default async function Home() {
+  const projectsFile = await fs.readFile(process.cwd() + '/app/data/projects.json', 'utf8');
+  const projectsData = JSON.parse(projectsFile);
+  
+//hasta acá llega
+
   return (
     <main >
       
@@ -20,7 +26,7 @@ export default function Home() {
       <div id="personal-projects-background">
       <Personal />
       
-      <Projects />
+      <Projects projectsData={[...projectsData]} />
       </div>      
       <Tools />
       <Footer />

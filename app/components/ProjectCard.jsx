@@ -6,32 +6,38 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image'
-import BC from '../../public/images/MSBussinessCard.png'
 import { deepPurple } from '@mui/material/colors';
 import { indigo } from '@mui/material/colors';
+import Link from '@mui/material/Link';
 
-export default function ProjectCard() {
+export default function ProjectCard( {title, description, picture, repoUrl, deployUrl}) {
   return (
     <Card sx={{ maxWidth: 320,  margin:'1rem' }}>
 
-      <Image src={BC} alt={"project picture"} className="cardImg" height={200}/>
+      <Image src={picture} alt={"project picture"} className="cardImg" height={200} width={400}/>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" color={deepPurple[600]}>
-          Project 1
+          {title}
         </Typography>
         <Typography variant="body2" color={indigo[600]} >
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" sx={{bgcolor:'#69f0ae', color:  indigo[600], fontFamily:'Code'}} > 
+      <Link href={repoUrl} target='blank' style={{ textDecoration: 'none'}}>  
+
+        <Button size="small" sx={{bgcolor:'#69f0ae', color:  indigo[600], fontFamily:'Source Code Pro'}} > 
         Repo
           <Image width={20} height={20} alt="icon" 
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"   />
+          src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"}   />
           
           </Button>
-        <Button size="small" sx={{bgcolor:deepPurple[600], color:'#69f0ae' , fontFamily:'Code'}} >Deploy</Button>
+          </Link> 
+
+          <Link href={deployUrl} target='blank' style={{ textDecoration: 'none'}}> 
+        <Button size="small" sx={{bgcolor:deepPurple[600], color:'#69f0ae' , fontFamily:'Source Code Pro'}} >Deploy</Button>
+        </Link>
+      
       </CardActions>
     </Card>
   );

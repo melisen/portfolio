@@ -1,6 +1,5 @@
 
 .containerPersonal{
-
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -20,11 +19,11 @@
     height: 10rem;
 
 }
-.Title{
+.personalTitle{
     font-size:2.5rem;
-    text-align: center;
-    margin: 5rem 0rem 0 0;
-    color:#40c4ff;
+    text-align: left;
+    margin: 5rem 0 0 0;
+    color:rgb(123, 251, 123);
     font-family: "Source Code Pro",  sans-serif;
     font-weight: 400;
   }

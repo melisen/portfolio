@@ -1,17 +1,19 @@
+'use client'
 import React from 'react'
 import { Typography, Container } from '@mui/material'
 import Image from 'next/image'
 import ProjectCard from './ProjectCard'
-
+import { useEffect, useState } from 'react';
 import Grid from '@mui/material/Grid';
 import '../../styles/projects.css'
 
 
 
 
-export default function Projects() {
 
+export default function Projects({projectsData}) {
 
+  
 
   return (
     
@@ -24,8 +26,11 @@ export default function Projects() {
 
 
        <div>
-        < ProjectCard />
-
+        {
+       projectsData.map((item)=>(
+            <ProjectCard key={item.title} {...item} />
+          ))
+       }
         </div>
 
 

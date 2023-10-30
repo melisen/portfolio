@@ -2,7 +2,6 @@
 
 import Button from  '@mui/material/Button'
 import Image from 'next/image'
-import heroimage from '../../public/images/meli-perfil.jpg'
 import '../../styles/heroSection.css'
 import Link from 'next/link'
 import GitHubPaper from './GitHubPaper';

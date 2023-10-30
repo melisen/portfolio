@@ -17,7 +17,7 @@ export default function Personal() {
   return (
     <Container className="containerPersonal" >
 
-<Typography  className="Title" id="about">Some things about me</Typography>
+<Typography  className="personalTitle" id="about">Some things about me</Typography>
 <Grid container   >
   <Grid item xs={10} md={8} lg={8}>
         <Typography variant="h5" className="personalSubTitle">Who I am </Typography>
