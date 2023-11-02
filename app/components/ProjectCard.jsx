@@ -12,9 +12,9 @@ import Link from '@mui/material/Link';
 
 export default function ProjectCard( {title, description, picture, repoUrl, deployUrl}) {
   return (
-    <Card sx={{ maxWidth: 320,  margin:'1rem' }}>
+    <Card sx={{ maxWidth: 300,  margin:'1rem' }}>
 
-      <Image src={picture} alt={"project picture"} className="cardImg" height={200} width={400}/>
+      <Image src={`/images/projectsImg/${picture}`} alt={"project picture"} className="cardImg" height={140} width={300}/>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div" color={deepPurple[600]}>
           {title}
