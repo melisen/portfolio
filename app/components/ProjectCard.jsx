@@ -24,16 +24,16 @@ export default function ProjectCard( {title, description, picture, repoUrl, depl
         </Typography>
       </CardContent>
       <CardActions>
-      <Link href={repoUrl} target='blank' style={{ textDecoration: 'none'}}>  
 
+      <Link href={repoUrl} target='blank' style={{ textDecoration: 'none'}}>  
         <Button size="small" sx={{bgcolor:'#69f0ae', color:  indigo[600], fontFamily:'Source Code Pro'}} > 
         Repo
           <Image width={20} height={20} alt="icon" 
           src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"}   />
-          
           </Button>
           </Link> 
-
+          
+          
           <Link href={deployUrl} target='blank' style={{ textDecoration: 'none'}}> 
         <Button size="small" sx={{bgcolor:deepPurple[600], color:'#69f0ae' , fontFamily:'Source Code Pro'}} >Deploy</Button>
         </Link>

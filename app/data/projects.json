@@ -5,5 +5,33 @@
     "description": "Fantasy Bookstore e-commerce frontend made with React.js, MUI and Firebase",
     "repoUrl": "https://github.com/melisen/oropel-fantasy-store-senorans-perez",
     "deployUrl": "https://oropel-senorans.web.app/"
+},
+{
+    "title":"Tienda de alimentos Oryzia",
+    "picture": "pizza.png",
+    "description": "Healthy food store frontend, made with HTML, CSS, JS and Bootstrap.",
+    "repoUrl": "https://github.com/melisen/proyecto-senorans-perez",
+    "deployUrl": "https://proyecto-senorans-perez.vercel.app/"
+},
+{
+    "title":"E-commerce backend",
+    "picture": "pf-backend.png",
+    "description": "E-commerce made with Node.js, Express.js, MongoDB, Mongoose, Handlebars, Passport",
+    "repoUrl": "https://github.com/melisen/backend-proyecto-final",
+    "deployUrl": "https://pf-backend-senorans.up.railway.app/"
+},
+{
+    "title":"Beauty Saloon appointment scheduling backend",
+    "picture": "proyecto-estetica.png",
+    "description": "Contributing to this project along with /CarlaRicciardi to make an appointment scheduling website for a nail and beauty saloon, using Node.js, Express.js, MongoDB, Mongoose.",
+    "repoUrl": "https://github.com/CarlaRicciardi/proyectoEstetica",
+    "deployUrl": ""
+},
+{
+    "title":"MS - Professional Website",
+    "picture": "",
+    "description": "Website made for a client as a bussiness website regarding spot welding services. Made with React.js and MUI. Currently working on it.",
+    "repoUrl": "https://github.com/melisen/ms",
+    "deployUrl": ""
 }
 ]
